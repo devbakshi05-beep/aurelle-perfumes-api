@@ -1,0 +1,11 @@
+appsettings.json mein "AllowedHosts" ke upar ye block ADD karo (purana mat hatana):
+
+  "Razorpay": {
+    "KeyId": "",
+    "KeySecret": ""
+  },
+
+- Dono khali chhodoge  => DEMO payment mode (nakli card form, koi account nahi chahiye)
+- Razorpay TEST keys daaloge (rzp_test_...) => asli Razorpay test checkout
+
+Dhyan: KeySecret kisi ko mat bhejna aur GitHub pe upload mat karna.

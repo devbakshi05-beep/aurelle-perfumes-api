@@ -1,0 +1,19 @@
+Tumhari appsettings.json mein "Email" block ye hona chahiye (Port number hai, quotes nahi):
+
+  "Email": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "User": "tumhara@gmail.com",
+    "AppPassword": "16 letter app password",
+    "FromEmail": "tumhara@gmail.com",
+    "FromName": "Aurelle Perfume",
+    "ReplyTo": "",
+    "CcEmail": "tumhara@gmail.com",
+    "BccEmail": "",
+    "TestToEmail": ""
+  },
+
+- CcEmail: sirf ORDER email ki copy. OTP wali email mein CC kabhi nahi lagta.
+- TestToEmail: khali rakho. Bharoge toh saari emails (OTP bhi) sirf us ek inbox mein jayengi.
+- Gmail SMTP "From" ko login wale Gmail se badalne nahi deta.
+- AppPassword kisi ko mat bhejna aur GitHub pe mat daalna.
